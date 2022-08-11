@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>Spring Framework Guru - Course Name</title>
+    <title th:text="#{product.page.title}">Spring Framework Guru - Course Name</title>
 
     <link href="../static/css/bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"
           th:href="@{/css/bootstrap-3.3.4-dist/css/bootstrap.min.css}"/>
@@ -137,7 +137,7 @@
 <div class="jumbotron">
     <div class="container">
         <h1>Spring Framework Guru</h1>
-        <p class="lead">Online Courses for Spring Framework</p>
+        <p class="lead" th:text="#{product.course.tagline}">Online Courses for Spring Framework</p>
     </div>
 </div>
 
@@ -172,7 +172,7 @@
 
     <div class="row">
         <div class="col-md-offset-6 col-md-4">
-            <button class="btn-success">Buy Now!</button>
+            <button class="btn-success" th:text="#{product.course.buynow}">Buy Now!</button>
         </div>
         <br>
     </div>
