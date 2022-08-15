@@ -87,7 +87,7 @@ public class ProductServiceImpl implements ProductService {
       + "My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework. This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java.\n"
       + "\n"
       + "You will learn what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hot to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use.");
-    springCoreUltimate.setPrice(new BigDecimal("199"));
+    springCoreUltimate.setPrice(new BigDecimal("147"));
     springCoreUltimate.setImageUrl("SpringCoreUltimateThumb.png");
     springCoreUltimate.getProductCategories().add(springCoreCat);
     springCoreUltimate.getProductCategories().add(springBootCat);
@@ -103,7 +103,7 @@ public class ProductServiceImpl implements ProductService {
       + "My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework. This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java.\n"
       + "\n"
       + "You will learn what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hot to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use.");
-    thymeleaf.setPrice(new BigDecimal("199"));
+    thymeleaf.setPrice(new BigDecimal("15"));
     thymeleaf.setImageUrl("ThymeleafThumb.png");
     thymeleaf.getProductCategories().add(thymeleafCat);
     productMap.put(3, thymeleaf);
@@ -118,7 +118,7 @@ public class ProductServiceImpl implements ProductService {
       + "My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework. This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java.\n"
       + "\n"
       + "You will learn what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hot to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use.");
-    springCore.setPrice(new BigDecimal("199"));
+    springCore.setPrice(new BigDecimal("99"));
     springCore.setImageUrl("SpringCoreThumb.png");
     springCore.getProductCategories().add(springCoreCat);
     springCore.getProductCategories().add(springBootCat);
@@ -134,8 +134,8 @@ public class ProductServiceImpl implements ProductService {
       + "My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework. This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java.\n"
       + "\n"
       + "You will learn what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hot to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use.");
-    springCoreAdv.setPrice(new BigDecimal("199"));
-    springCoreAdv.setImageUrl("SpringCoreAdvanced.png");
+    springCoreAdv.setPrice(new BigDecimal("99"));
+    springCoreAdv.setImageUrl("SpringCoreAdvancedThumb.png");
     springCoreAdv.getProductCategories().add(springCoreCat);
     springCoreAdv.getProductCategories().add(springBootCat);
     productMap.put(5, springCoreAdv);
@@ -150,8 +150,8 @@ public class ProductServiceImpl implements ProductService {
       + "My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework. This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java.\n"
       + "\n"
       + "You will learn what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hot to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use.");
-    springCoreDevOps.setPrice(new BigDecimal("199"));
-    springCoreDevOps.setImageUrl("SpringCoreDevOps.png");
+    springCoreDevOps.setPrice(new BigDecimal("15"));
+    springCoreDevOps.setImageUrl("SpringCoreDevOpsThumb.png");
     springCoreDevOps.getProductCategories().add(springCoreCat);
     springCoreDevOps.getProductCategories().add(springBootCat);
     productMap.put(6, springCoreDevOps);
