@@ -26,7 +26,7 @@
              th:class="${#fields.hasErrors('login')} ? 'form-group has-error' : 'form-group'">
           <label class="col-sm-2 control-label">Login:</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" th:field="*{login}" th:errorclass="has-error"/>
+            <input type="text" class="form-control" name="login" id="login"/>
             
             <span class="help-block" th:if="${#fields.hasErrors('login')}">
               <ul>
@@ -40,7 +40,7 @@
              th:class="${#fields.hasErrors('password')} ? 'form-group has-error' : 'form-group'">
           <label class="col-sm-2 control-label">Password:</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" th:field="*{password}" th:errorclass="has-error"/>
+            <input type="password" class="form-control" name="password" id="password" />
             
             <span class="help-block" th:if="${#fields.hasErrors('password')}">
               <ul>

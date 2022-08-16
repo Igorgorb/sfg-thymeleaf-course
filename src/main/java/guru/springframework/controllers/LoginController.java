@@ -30,6 +30,6 @@ public class LoginController {
     if (bindingResult.hasErrors()) {
       return "loginform";
     }
-    return "logincomplete";
+    return "redirect:/index";
   }
 }

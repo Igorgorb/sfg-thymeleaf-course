@@ -17,7 +17,7 @@ public class IndexController {
     this.productService = productService;
   }
 
-  @RequestMapping("/")
+  @RequestMapping({"/", "index", "index.html"})
   public String getIndex(Model model) {
 
     model.addAttribute("products", productService.listProducts());
